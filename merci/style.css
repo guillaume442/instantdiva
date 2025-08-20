@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.merci-section {
+    background: linear-gradient(rgba(45, 138, 51, 0.661), rgba(0, 0, 0, 0.806)),
+        url('../img/home.webp');
+    background-size: cover;
+    background-position: center;
+    color: var(--light-color);
+    text-align: center;
+    padding: 100px 0;
+    min-height: 100vh;
+}
+
+.merci-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+    color: var(--text-color);
+}
+
+.merci-icon {
+    font-size: 4rem;
+    color: #ff9248;
+    margin-bottom: 20px;
+}
+
+.merci-title {
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.return-home {
+    margin-top: 30px;
+}
+
+.return-home .btn {
+    display: inline-block;
+    background-color: #ff9248; /* Orange */
+    color: #ffffff; /* Blanc */
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease; /* Transition définie directement */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Ombre définie directement */
+    text-decoration: none;
+}
+
+.return-home .btn:hover {
+    background-color: #8fbb6c; /* Vert au survol */
+    transform: translateY(-3px);
+}
